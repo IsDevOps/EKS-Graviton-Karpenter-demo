@@ -50,11 +50,11 @@ Run `terraform plan` to see the configuration it creates when executed.
 # Deploy from GitHub Actions workflow (recommended)
 
 1. Fork the repository
-2. Clone your forked repository
+2. Clone or forked repository
 3. Create the following secrets in your GitHub repository:
    - `AWS_ACCESS_KEY_ID`
    - `AWS_SECRET_ACCESS_KEY`
-4. Edit the Terraform files as needed if needed
+4. Edit the Terraform files with existing infrastructure credentials.
 5. run `terraform fmt`
 6. run `terraform validate`
 5. Commit and push your changes to the main branch
@@ -176,5 +176,5 @@ subjects:
 ```
 
 ## Now the infrastructre and name space is ready to recieve the app!!!
-## We heard over to the CICD pipleline to deploy a sample game app to this infrastructure.
+## We head over to the CICD pipleline to deploy a sample game app to this infrastructure.
 # EKS-Graviton-Karpenter
