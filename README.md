@@ -63,20 +63,16 @@ Run `terraform plan` to see the configuration it creates when executed.
 
 To do that click on Actions
 
-![alt text](<Screenshot 2024-09-07 at 17.05.21.png>)
 
 Click on Regtech-Infrastructure you use the drop down to choose to plan, apply or destroy
 
-![alt text](<Screenshot 2024-09-07 at 17.06.23.png>)
 
 you can have options
 
-![alt text](<Screenshot 2024-09-07 at 17.07.06.png>)
 
 
 # on success plan, you goto same place and select apply and on sucesss you will get the image below
 
-![alt text](<Screenshot 2024-09-07 at 17.35.13.png>)
 
 # goto the EKS console After a successful workflow Apply action and click on create access to the user this will take you to where you attach the following policy  
 1. AmazonEKSClusterPolicy
