@@ -108,7 +108,7 @@ lifecycle {
 # Karpenter Node Template
 resource "kubectl_manifest" "karpenter_node_template" {
   yaml_body = <<-YAML
-apiVersion: karpenter.k8s.aws/v1alpha1
+apiVersion: karpenter.k8s.aws/v1alpha5
 kind: AWSNodeTemplate
 metadata:
   name: default
